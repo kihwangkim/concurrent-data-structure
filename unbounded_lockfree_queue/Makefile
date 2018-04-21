@@ -4,6 +4,8 @@ SRC_DIRS ?= .
 CXXFLAGS = -g -Wall -std=c++11
 #CXXFLAGS = -g -Wall -std=c++11 -DGL
 
+#CXXFLAGS += -DVALID
+
 #CXXFLAGS ?= $(INC_FLAGS) -MMD -MP -lpthread
 
 SRCS := $(shell find $(SRC_DIRS) -name "*.cpp" -or -name "*.c" -or -name "*.s")
